@@ -1,0 +1,164 @@
+# MCP99.github.io
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project:My Blog</title>
+        
+        <style>
+            body{background-color:rgb(224, 186, 255);
+                 font-family:sans-serif;
+                 line-height:1.5em;
+                 }
+            
+            h1{text-align: center;}
+            
+            #contenido{text-align:center;
+                       font-size:1.2em;
+                       font-weight:bold;
+                       color:rgb(120,49,168);
+            }
+            
+            #post1{text-align: center;
+                   color:rgb(120, 49, 168);
+                   font-size:1.2em;
+                   font-weight:bold;
+            }
+            
+            .parrafo1{font-size:0.9em;}
+            
+            #lista1{font-size:0.9em;}
+            
+            #post2{text-align: center;
+                   color:rgb(120,49,168);
+                   font-size:1.2em;
+                   font-weight:bold;
+            }    
+            
+            #cursiva{font-style:italic;
+                     font-size:0.9em;
+            }
+            
+            .parrafo2{font-size:0.9em;}
+            
+            #post3{text-align: center;
+                   color:rgb(120,49,168);
+                   font-size:1.2em;
+                   font-weight:bold;
+            }
+            
+            .parrafo3{font-size:0.9em;}
+            
+            #lista2{font-size:0.9em;}
+            
+            #tabla1{text-align:center;
+                  background-color:rgb(179, 123, 201);
+                  font-size:0.9em;
+            }
+            
+            #estilo1{font-family:cursive;}
+            
+            #estilo2{font-family:fantasy;}
+            
+            #estilo3{font-family:monospace;}
+            
+            #estilo4{font-family:sans-serif;}
+            
+            #tama1{font-size:1.2em;}
+            
+            #tama2{font-size:1.3em;}
+            
+            #tama3{font-size:1.4em;}
+            
+            #tama4{font-size:1.5em;}
+        </style>
+        
+    </head>
+    <body>
+        
+        <h1>Mi primer Blog</h1>
+        <hr>
+
+        <p id="contenido">Este contenido podras encontrar:</p>
+        <ul>
+            <li> <a href="#post1">Mi primer clase de programación</a></li>
+            <li> <a href="#post2"> Conceptos básciso de HTML que aprendí </a></li>
+            <li> <a href="#post3">Conociendo CSS</a></li>
+        </ul>
+        
+        <strong><p id="post1">Mi primer clase de programación</p></strong>
+        
+        <p class="parrafo1"> La primer clase vimos la estructura de HTML: head y body. </p>
+        
+        <img src="https://disenowebakus.net/imagenes/articulos/estructura-basica-de-una-pagina-web-en-html.jpg" alt="estructura de HTML" width="150" height="150">
+        
+        <p class="parrafo1">Ademas de darnos un pantallazo general sobre lenguaje de programacion realizamos un juego que a medidad que realizabamos una acción nos mostraba a la derecha de la pantalla el código. ¡Podiamos elegir entre varios personajes! Como estos: </p>
+        
+        <img src="https://www.kasandbox.org/programming-images/cute/CharacterBoy.png" alt="Chico" width="80">
+        
+        <img src="https://www.kasandbox.org/programming-images/cute/CharacterCatGirl.png" alt="chica" width="80">
+        
+    
+        <strong><p id="post2">Conceptos básicos de HTML que aprendí</p></strong>
+        
+        <p class="parrafo2"> Además de las etiquetas básicas que aprendimos como por ejemplo:</p>
+        <ul id="lista1">
+        
+            <li><em>em</em>: para letra cursiva</li>
+            <li><strong>strong</strong>: para letra negrita</li>
+            <li>ul: para listas en viñeta</li>
+            <li>ol: para listas ordenadas</li>
+            <li>p: parrafos</li>
+            <li>h1,...,h6: encabezados</li>
+        
+        </ul>
+        
+        <p id="cursiva">(Todas ellas van encerradas de los signos mayor y menor.)</p><p class="parrafo2">También aprendí a hacer tablas de información, en la cual se puede visualizar rapidamente cualquier tipo de dato que quieras mostrar, como por ejemplo aqui muestro algunas de mis mascotas:</p>
+        
+        <table id="tabla1">
+            <thead>
+                <tr>
+                    <th>Animal</th>
+                    <th>Color</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Perro</td>
+                    <td>Negro</td>
+                    <td>Arturo</td>
+                </tr>
+                <tr>
+                    <td>Gato</td>
+                    <td>Blanco</td>
+                    <td>Venus</td>
+                </tr>
+            </tbody>
+            
+        </table>
+        
+        <strong><p id="post3">Conociendo CSS</p></strong>
+        
+        <p class="parrafo3">Sin embargo, hasta el momento, la parte mas divertida es la de CSS ya que uno puede estilizar la página web a su gusto. Cambiando el estilo de letras, color, el fondo de la pagina, incluso el fondo de un parrafo. Por ejemplo aca se muestran diferentes tipos de letras: </p>
+        
+        <ul id="lista2">
+            <li id="estilo1">Cursive</li>
+            <li id="estilo2">Fantasy</li>
+            <li id="estilo3">monospace</li>
+            <li id="estilo4">sans-serif</li>
+        </ul>
+        
+        <p class="parrafo3">Asi se ve cuando se cambia el tamaño de la letra:
+        </p>    
+        
+        <ul>
+            <li id="tama1">Tamaño 1.2em</li>
+            <li id="tama2">Tamaño 1.3em</li>
+            <li id="tama3">Tamaño 1.4em</li>
+            <li id="tama4">Tamaño 1.5em</li>
+        </ul>
+        
+    </body>
+</html>
